@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+body{
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 982px;
+    width: 1512px;
+    left: 7721px;
+    top: 953px;
+    border-radius: 0px;
+}
+ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+    list-style: none;
+}
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    list-style: none;
+}
+.sinscrire{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 22px;
+    list-style: none;
+}
+.sinscrire li a{
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    text-decoration: none;
+    top: 0%;
+}
+.rectangle{
+    position: absolute;
+    width: 535px;
+    height: 595px;
+    left: 489px;
+    top: 193px;
+
+    background: #FFFFFF;
+    box-shadow: -6px -6px 16px rgba(0, 0, 0, 0.09), 5px 5px 16px rgba(0, 0, 0, 0.09);
+
+}
+.rectangle h2{
+display: flex;
+align-items: center;
+justify-content: center;
+font-family:'Poppins', sans-serif;
+font-style: bold;
+flex-grow: inherit;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+margin-top: 14px;
+margin-left: 142px;
+margin-right: 142px;
+margin-bottom: 0px;
+color: #032130;
+
+}
+.rectangle p{
+    font-family: 'Poppins',sans-serif;
+    font-style: bold;
+    font-size: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    justify-content: center;
+    color: black;
+    margin-top: 13px;
+    margin-left: 92px;
+    margin-right: 92px;
+
+}
+.rectangle a{
+    color: #018DCA;
+    
+}
+form{
+    font-family: 'Poppins',sans-serif;
+    font-style: bold;
+}
+.rectangle .textfield{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 89px;
+    gap: 9px;
+    margin-bottom: 0px;
+}
+.rectangle .textfield label{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.rectangle .textfield .textf{
+    box-sizing: border-box;
+    width: 371px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #E5E6EB;
+    border-radius: 5px;
+    gap: 60px;
+    display: flex;
+    margin-right: 0%;
+
+}
+.rectangle .pass{
+    margin-left: 89px;
+    
+}
+.checkbox{
+    box-sizing: border-box;
+    width: 371px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #E5E6EB;
+    border-radius: 5px;
+    margin-left: 89px;
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+}
+.checkbox label{
+    margin-top: 18px;
+    margin-bottom: 21px;
+}
+.rectangle .textfield .text1{
+    margin-top: 46px;
+    
+    
+}
+input::placeholder{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 13px;
+    padding-right: 250px;
+    
+}
+input{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 13px;
+    gap: 60px;
+  }
+
+.submit{
+    background: #023959;
+box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+width: 170px;
+height: 55px;
+text-decoration: none;
+margin-top: 26px;
+margin-left: 189px;
+margin-right: 176px;
+}
+.submit a{
+    text-decoration: none;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   align-self: center;
+   width: 110px;
+   height: 24px;
+   padding-top: 15px;
+   padding-left: 32px;
+   padding-bottom: 16px;
+   padding-right: 33px;
+   color: white;
+
+}
+input[type="checkbox"]{
+    height: 15px;
+    width: 15px;
+    margin-top: 22px;
+    margin-bottom: 21px;
+    margin-left: 13px;
+    margin-right: 11px;
+}

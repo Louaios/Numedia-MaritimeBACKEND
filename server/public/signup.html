@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="rectangle">
+            <h1>S'inscrire</h1>
+            <p>Vous avez déja un compte? <a href="#">Se Connecter</a></p>
+            <form action="/signup" method="post">
+           <div class="field1">
+              <div class="nom">   
+                 <label for="nom">Nom</label>
+                 <input type="text" name="name" id="nom" placeholder="Nom">
+              </div>
+              <div class="prenom">
+                 <label for="prenom" name="prenom">Prénom</label>
+                 <input type="text" name="prenom" id="prenom" placeholder="Prenom">
+              </div>  
+            </div>
+            <div class="field2">
+                <label for="email">Adresse Email</label>
+                <input type="email" name="email" id="email" placeholder="Adresse Email" required>
+                <div class="email error"></div>
+                <label for="tel">Numéro de téléphone</label>
+                <input type="tel" name="tel" id="tel" maxlength="10" placeholder="Numéro de téléphone" required>
+                <div class="tel error"></div>
+                <label for="passe">Mot de passe</label>
+                <input type="password" name="password" id="passe" placeholder="Mot de passe" required>
+                <div class="password error"></div>
+                <input type="checkbox" id="checkbox" required>
+                <label>La création d'un compte signifie que vous êtes d'accord avec nos <a href="#">conditions d'utilisation</a></label>
+            </div>
+                <div class="submit">
+                <button>créer un compte</button>
+            </div>
+         </form>
+        </div>
+    </body>
+</html>

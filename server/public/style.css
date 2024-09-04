@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family:'Poppins',sans-serif ;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;;
+
+
+}
+
+.rectangle{
+    background: #F5F5F5;
+    margin-left: 891px;
+    margin-top: 90px;        
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 91px;
+}
+input[type="email"]{
+    text-indent: 14px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    margin-top: 9px;
+    margin-bottom: 26px;
+    box-sizing: border-box;
+    width: 371px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #E5E6EB;
+    border-radius: 5px;
+}
+input[type="text"]{
+    text-indent: 14px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    margin-top: 9px;
+    margin-bottom: 26px;
+    box-sizing: border-box;
+    width: 214px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #E5E6EB;
+    border-radius: 5px;
+}
+input[type="password"]{
+    text-indent: 14px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    margin-top: 9px;
+    margin-bottom: 13px;
+    box-sizing: border-box;
+    width: 371px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #E5E6EB;
+    border-radius: 5px;
+}
+input[type="tel"]{
+    text-indent: 14px;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    margin-top: 9px;
+    margin-bottom: 26px;
+    box-sizing: border-box;
+    width: 371px;
+    height: 57px;
+    background: #FFFFFF;
+    border: 1px solid #E5E6EB;
+    border-radius: 5px;
+}
+input[type="checkbox"]{
+    height: 14px;
+    width: 14px;
+}
+label[for="checkbox"]{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 91px;
+    align-self: center;
+    
+}
+input[type="tel"]::placeholder{
+    padding-top: 17px;
+    font-family: 'Poppins',sans-serif;
+}
+input[type="text"]::placeholder{
+    padding-top: 17px;
+    font-family: 'Poppins',sans-serif;
+}
+input[type="password"]::placeholder{
+    padding-top: 17px;
+    font-family: 'Poppins',sans-serif;
+}
+input[type="email"]::placeholder{
+    padding-top: 17px;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    color: #018DCA;
+}
+.field2 label{
+    margin-top: 57px;
+}
+.field1{
+    display: flex;
+    gap: 39px;
+    margin-bottom: 26px;
+}    
+.field1 .nom{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+.field1 .prenom{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.submit{
+    margin-top: 30px;
+    margin-left: 87px;
+    height: 67px;
+    width: 287px;
+    background-color:#023959;
+}
+.submit a{
+    color: white;
+    text-decoration: none;
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 21px;
+}
